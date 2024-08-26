@@ -1,0 +1,126 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+
+body {
+    background: #96b5bd;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.Digite {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    align-items: center;
+    gap: 5px;
+    width: 50%;
+}
+.texto , .texto_codificado{
+    resize: none;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.texto::placeholder{
+    color: rgb(192, 40, 13);
+}
+
+.texto {
+    background: rgb(245, 244, 244);
+    border-style: dashed;
+    border-color: black;
+    width: 80%;
+    height: 70vh;
+}
+
+#aviso{
+    display: flex;
+    gap: 3px;
+    justify-content: flex-start;
+    color: black;
+    
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8vh;
+    gap: 5vh;
+    
+}
+
+.botoes_tamanho{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    color: rgb(192, 40, 13);
+    font-weight: bold;
+    background: beige;
+    border: 3px solid black; 
+    transition: 0.5s;
+
+}
+.botoes_tamanho:hover{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 25px;
+    color: wheat;
+    font-weight: bold;
+    background: rgb(192, 40, 13);
+    border: 2px solid black; 
+    transition: 0.5s;
+}
+
+.codificador{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    gap: 40px;
+
+}
+
+.texto_codificado::placeholder{
+    height: 80vh;
+    background-image: url(lupa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+
+    color: rgb(192, 40, 13);
+    text-align: center;
+
+
+}
+
+.texto_codificado{
+    background: rgb(245, 244, 244);
+    border-color: black;
+    width: 70%;
+    height: 80vh;
+
+}
+
+#copiar {
+    position: relative;
+    bottom: 5vh;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header> 
+        <img src="logo_alura.png">
+    </header>
+
+    <main>
+        <div class="Digite">
+            <textarea id="input" placeholder="Digite aqui seu texto..." class="texto" ></textarea>
+            <p id="aviso"> <img src="exclamacao.png"></p>
+            <div class="botoes">
+
+                <button id="codificador" class="botoes_tamanho">
+                    Codificar
+                </button>
+
+                <button id="decodificador" class="botoes_tamanho">
+                    Decodificar
+                </button>                
+            
+
+            </div>            
+
+        </div>
+
+        <div class="codificador">
+            <textarea wrap="hard" id="output" readonly placeholder ="Digite um texto que você deseja criptografar ou descriptografar." class="texto_codificado"></textarea>
+
+            <button id="copiar" class="botoes_tamanho">Copiar</button>
+
+        </div>
+
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+
+
+    
+</body>
+</html>
